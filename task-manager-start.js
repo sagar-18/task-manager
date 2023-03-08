@@ -4,9 +4,7 @@ require('./db/connect');
 const Task = require('./models/tasks');
 const myRoutes = require('./routes/tasks');
 const myHomeRoute = require('./routes/home');
-const path = require('path');
-const fs = require('fs');
-const myPort = process.env.PORT || 3000;
+const myPort = process.env.PORT || 9980;
 
 app.use(express.json());
 app.use(myRoutes);
