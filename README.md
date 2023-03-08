@@ -1,7 +1,7 @@
 # Task Manager API                                                                      
 
 ## [Live API](<a href="http://taskmanager.sagarchauhan.tech">http://taskmanager.sagarchauhan.tech</a>)
-<br><br><br>
+<br>
 ### Routes (authorization not required for this demo app)
 
 <ol>
