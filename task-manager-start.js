@@ -1,11 +1,13 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 require('./db/connect');
 const Task = require('./models/tasks');
 const myRoutes = require('./routes/tasks');
 const myHomeRoute = require('./routes/home');
-const myPort = process.env.PORT || 9980;
+const myPort = process.env.PORT || 3000;
 
+app.use(cors());
 app.use(express.json());
 app.use(myRoutes);
 app.use(myHomeRoute);
